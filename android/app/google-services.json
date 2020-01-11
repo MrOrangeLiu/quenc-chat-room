@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "700634880156",
+    "firebase_url": "https://orange-chat-a5cf3.firebaseio.com",
+    "project_id": "orange-chat-a5cf3",
+    "storage_bucket": "orange-chat-a5cf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700634880156:android:5f8d3e800131450184f559",
+        "android_client_info": {
+          "package_name": "co.kevinliu.orange_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700634880156-kvltbv6ps18i9fb59cb6eutavph9bbdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3mYY4MOFEYqSHNN59xJwqCvUlOyaKNjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700634880156-kvltbv6ps18i9fb59cb6eutavph9bbdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
