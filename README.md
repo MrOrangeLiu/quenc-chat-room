@@ -4,11 +4,11 @@ A new Flutter project building a chat room.
 
 # The Screenshots
 
-![HomeScreen](screenshots/3.png)
+![HomeScreen](screenshots/3.png | width=200)
 
-![ChatScreen](screenshots/4.png)
+![ChatScreen](screenshots/4.png | width=200)
 
-![ChatScreen](screenshots/5.png)
+![ChatScreen](screenshots/5.png | width=200)
 
 # Functions:
  - [ ]  Login and Register
