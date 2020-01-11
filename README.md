@@ -11,10 +11,9 @@ A new Flutter project building a chat room.
 <img src="./screenshots/5.png" width="300">
 
 # Functions:
- - [ ]  Login and Register
- - [ ]  Send Text Messages
+ - [x]  Send Text Messages
  - [ ]  Send Stickers
- - [ ]  Send Photos (Pick up from phone gallery or album)
+ - [x]  Send Photos (Pick up from phone gallery or album)
  - [ ]  Add Friends
 
 ## Getting Started

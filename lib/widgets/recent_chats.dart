@@ -3,10 +3,8 @@ import 'package:intl/intl.dart';
 import 'package:OrangeChat/screens/chat_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:OrangeChat/models/message_model.dart';
 import 'package:OrangeChat/models/user_model.dart';
 import 'package:OrangeChat/models/chat_group_model.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 
 final _firestore = Firestore.instance;
 
@@ -36,18 +34,6 @@ class _RecentChatsState extends State<RecentChats> {
                         Theme.of(context).primaryColor)));
           } else {
             final chatGroups = snapshot.data.documents;
-//  Test Only
-//            return Center(
-//              child: Text(
-//                'Hello World: ' +
-//                    chatGroups.length.toString() +
-//                    '  ' +
-//                    widget.id.toString() +
-//                    '  ' +
-//                    chatGroups[0]['members'].toString(),
-//                style: TextStyle(fontSize: 12.0),
-//              ),
-//            );
 
             return ListView.builder(
               itemCount: chatGroups.length,
@@ -57,13 +43,10 @@ class _RecentChatsState extends State<RecentChats> {
                 // Get myself from group's member list
                 List<User> members = chat.members;
                 for (var member in members) {
-//                  print(member.id.toString() + " and " + widget.id.toString());
                   if (member.id == widget.id) {
                     myself = member;
-//                    print('myself');
                   } else {
                     peer = member;
-//                    print('peer');
                   }
                 }
 
