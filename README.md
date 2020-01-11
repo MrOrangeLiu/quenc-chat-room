@@ -3,9 +3,6 @@
 A new Flutter project building a chat room.
 
 # The Screenshots
-![WelcomeScreen](screenshots/1.png)
-
-![LoginScreen](screenshots/2.png)
 
 ![HomeScreen](screenshots/3.png)
 

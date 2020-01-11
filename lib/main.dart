@@ -15,7 +15,7 @@ class OrangeChat extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.teal,
 //        accentColor: Colors.orangeAccent,
         accentColor: Color(0xFFFEF9EB),
       ),
