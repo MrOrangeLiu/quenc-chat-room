@@ -8,6 +8,8 @@ A new Flutter project building a chat room.
 
 ![ChatScreen](screenshots/4.png)
 
+![ChatScreen](screenshots/5.png)
+
 # Functions:
  - [ ]  Login and Register
  - [ ]  Send Text Messages
